@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <script src="scripts/script.js"></script>
+    
+</head>
+
+<body>
+    
+     <!-- Прелоадер -->
+     <div id="preloader">
+        <img src="images/preloader.svg" alt="">
+    </div> 
+
+    <div class="content" id="site" style="display: none;">
+        <div class="main_wrapper min-h-screen flex flex-col">
+            <header class="header py-[35px]">
+                <div class="container">
+                    <div class="header_items flex justify-between items-center">
+                        <a href="index.html" class="header_logo flex items-center gap-[8px]">
+                            <img src="images/logo.svg" alt="Лого">
+                            <p class="text-nowrap" href="#">H2H Foundation</p>
+                        </a>
+                        <ul class="header_nav flex gap-[24px] items-center">
+                            <li><a href="#">Кто мы?</a></li>
+                            <li><a href="#">Текущие сборы</a></li>
+                        </ul>
+                        <div class="header_join_section flex items-center gap-2">
+    
+                            <a href="collection_page.html" class="header_join_btn text-gray-600 hover:text-gray-800 flex items-center gap-2">Присоединится 
+                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+        width="20" height="20" viewBox="0 0 512.000000 512.000000"
+        preserveAspectRatio="xMidYMid meet">
+        <g transform="translate(0.000000,512.000000) scale(0.10,-0.10)"
+           fill="#42BD26" stroke="none">  
+           <path d="M3115 4244 c-107 -55 -153 -178 -106 -279 13 -27 205 -225 590 -610
+           314 -313 571 -573 571 -577 0 -5 -853 -8 -1895 -8 -1688 0 -1900 -2 -1933 -15
+           -169 -71 -169 -319 0 -390 33 -13 245 -15 1933 -15 1042 0 1895 -3 1895 -7 0
+           -4 -263 -271 -584 -593 l-584 -585 -11 -55 c-33 -160 109 -292 267 -250 44 12
+           98 64 825 789 477 475 787 792 799 816 28 54 28 136 0 190 -31 59 -1546 1570
+           -1594 1590 -48 19 -135 19 -173 -1z"/>
+        </g>
+    </svg>
+    
+                                  
+                              </a>
+    
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="main_section_wrapper">
+                <div class="container m_section_inner">
+                    <div class="main_section w-full">
+                        <div class="main_left_wrapper">
+                            <img class="main_left" src="images/main_left.png"
+                            alt="main_left">
+                        </div>
+                        <div class="m_section_info_inner  flex flex-col">
+    
+                            <img class="hands self-end" src="images/hands.png"
+                            alt="hands">
+                            <img class="help mt-[60px]" src="images/help.png"
+                            alt="help">
+                            <div class="m_section_info flex justify-center gap-[60px] mt-[48px]">
+                                <a href="collection_page.html" class="m_section_join text-center  py-[18px] px-[88px] md:py-[30px] text-nowrap md:px-[100px] text-white flex items-center gap-2">Присоединится к сбору 
+                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" viewBox="0 0 512.000000 512.000000"
+                                    preserveAspectRatio="xMidYMid meet">
+                                    <g transform="translate(0.000000,512.000000) scale(0.10,-0.10)"
+                                       fill="#ffff" stroke="none">  <!-- Изменено на зелёный цвет -->
+                                       <path d="M3115 4244 c-107 -55 -153 -178 -106 -279 13 -27 205 -225 590 -610
+                                       314 -313 571 -573 571 -577 0 -5 -853 -8 -1895 -8 -1688 0 -1900 -2 -1933 -15
+                                       -169 -71 -169 -319 0 -390 33 -13 245 -15 1933 -15 1042 0 1895 -3 1895 -7 0
+                                       -4 -263 -271 -584 -593 l-584 -585 -11 -55 c-33 -160 109 -292 267 -250 44 12
+                                       98 64 825 789 477 475 787 792 799 816 28 54 28 136 0 190 -31 59 -1546 1570
+                                       -1594 1590 -48 19 -135 19 -173 -1z"/>
+                                    </g>
+                                </svg></a>
+    
+                                <p class="">Объединяем людей
+                                    для помощи
+                                    нуждающимся.
+                                    Присоединяйтесь
+                                    к миссии
+                                    поддержки
+                                    приютов,
+                                    детских домов,
+                                    операций
+                                    и экстренных
+                                    случаев.</p>
+                            </div>
+                            <img class="dog1 max-w-[164px] w-full mt-[100px]"
+                            src="images/dog1.png"
+                            alt="dog1">
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+        <div class="info_section bg-black">
+            <div class="container">
+                <div class="flex justify-center">
+                    <p class="py-[80px] max-w-[1265px] text-justify"><span>H2H Foundation —</span>                    это сообщество людей,
+                        объединённых одной целью:
+                        <span>помощь</span> тем,
+                        кто в этом нуждается.
+                        Мы <span>поддерживаем</span>                    детские дома, <span>финансируем</span>                    операции,<span> помогаем</span>                    приютам и реагируем на
+                        экстренные ситуации.
+                        Наша миссия — делать
+                        мир добрее, <span>шаг за шагом.</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="collecting_section mt-[130px]">
+            <div class="container">
+                <h2>Собираем прямо сейчас:</h2>
+                <div class="c_section_items flex flex-col gap-[32px] mt-[65px]">
+                    <div class="c_section_item">
+                        <div class="flex flex-col gap-[32px] relative md:static">
+    
+                            <img class="max-w-[832px] ml-auto mt-[100px] md:mt-0"
+                            src="images/dog2.png"
+                            alt="dog2">
+                            <div class="item_info flex justify-between">
+                                <p class="absolute top-[24px] left-[24px] md:static">Название сбора</p>
+                                <p>1.000$/$4.000
+                                    </p>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="c_section_item">
+                        <div class="flex flex-col gap-[32px] relative md:static">
+    
+                            <img class="max-w-[832px] ml-auto mt-[100px] md:mt-0"
+                            src="images/dog2.png"
+                            alt="dog2">
+                            <div class="item_info flex justify-between">
+                                <p class="absolute top-[24px] left-[24px] md:static">Название сбора</p>
+                                <p>1.000$/$4.000
+                                    </p>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer py-[32px] md:py-[80px] mt-[100px] md:mt-[130px]">
+            <div class="container">
+                <div class="flex flex-col gap-[32px] md:gap-[48px]">
+                    <div class="footer_logo_section flex gap-[32px] lg:items-center flex-col md:flex-row justify-between">
+                        <div class="footer_logo">
+                            <a class="flex items-center gap-[16px] md:gap-[40px]"
+                            href="#">
+                                <img src="images/logo.png" alt="logo">
+                                <p>H2H Foundation</p>
+                            </a>
+                        </div>
+                        <a href="#">Telegram -></a>
+                    </div>
+                    <div class="footer_info flex flex-col sm:flex-row gap-[24px] justify-between">
+                        <p>H2H Foundation 2024-2025
+                            All rights reserved</p>
+                        <a href="#">H2H.gold</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</body>
+
+</html>

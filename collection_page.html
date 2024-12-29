@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   
+</head>
+<body>
+     <!-- Прелоадер -->
+     <div id="preloader">
+        <img src="images/preloader.svg" alt="">
+    </div>
+
+    <div class="content" id="site">
+        <div class="main_wrapper min-h-dvh flex flex-col">
+            <header class="header py-[35px]">
+                <div class="container">
+                    <div class="header_items flex justify-between items-center">
+                        <a href="index.html" class="header_logo flex items-center gap-[8px]">
+                            <img src="images/logo.svg" alt="Лого">
+                            <p class="text-nowrap" href="#">H2H Foundation</p>
+                        </a>
+                        <ul class="header_nav flex gap-[24px] items-center">
+                            <li><a href="#">Кто мы?</a></li>
+                            <li><a href="#">Текущие сборы</a></li>
+                        </ul>
+                        <div class="header_join_section flex items-center gap-2">
+    
+                            <a href="collection_page.html" class="header_join_btn text-gray-600 hover:text-gray-800 flex items-center gap-2">Присоединится 
+                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+        width="20" height="20" viewBox="0 0 512.000000 512.000000"
+        preserveAspectRatio="xMidYMid meet">
+        <g transform="translate(0.000000,512.000000) scale(0.10,-0.10)"
+           fill="#42BD26" stroke="none">  <!-- Изменено на зелёный цвет -->
+           <path d="M3115 4244 c-107 -55 -153 -178 -106 -279 13 -27 205 -225 590 -610
+           314 -313 571 -573 571 -577 0 -5 -853 -8 -1895 -8 -1688 0 -1900 -2 -1933 -15
+           -169 -71 -169 -319 0 -390 33 -13 245 -15 1933 -15 1042 0 1895 -3 1895 -7 0
+           -4 -263 -271 -584 -593 l-584 -585 -11 -55 c-33 -160 109 -292 267 -250 44 12
+           98 64 825 789 477 475 787 792 799 816 28 54 28 136 0 190 -31 59 -1546 1570
+           -1594 1590 -48 19 -135 19 -173 -1z"/>
+        </g>
+    </svg>
+    
+                                  
+                              </a>
+    
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="main_section_wrapper grow-0">
+                <div class="relative flex items-center" 
+                style="background-color: #EEF3FB;">
+                
+                    <div class="container">
+                        <div class="flex items-center justify-between gap-8 flex-wrap-reverse md:flex-nowrap">
+                            <h1 class="pb-[32px]" style="font-size: 48px;">
+                                <span class="" style="
+                                font-size: 32px; 
+                                color:rgba(100, 100, 100, 70)">1.000$</span>/4.000$</h1>
+                                <img class="max-w-[924px] w-full" src="images/dog2.png" alt="dog2">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="collection_info mt-[64px]">
+                <div class="container">
+                    <div class="flex md:items-center justify-between flex-col md:flex-row gap-[32px] md:gap-0">
+                        <div class="flex gap-[8px] md:gap-[24px] flex-col">
+                            <h2 style="font-size: 48px;">Название сбора</h2>
+                            <p>Описание и детали сбора</p>
+                        </div>
+                        <a class="help-btn text-center text-white py-[18px] md:py-[30px] md:px-[172px]" href="#">Помочь</a>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="reports_section mt-[130px]">
+                <div class="container">
+                    <div class="flex justify-between">
+                        <h3 style="font-size: 32px;">Отчетности</h3>
+                        <div class="control_section flex items-center gap-3">
+                            <div class="slider_control_btn prev"><img src="images/right_arrow.svg" alt="prev"></div>
+                            <div class="slider_control_btn next"><img src="images/right_arrow.svg" alt="next"></div>
+                        </div>
+                    </div>
+                   
+                    <div class="content mt-[48px]">
+                        <div class="slider slick-slider flex gap-4">
+                          
+                          <div class="slider_item flex flex-col gap-[75px] p-[24px]">
+                            <div class="flex flex-col gap-[24px]">
+                              <p>27.12.2024</p>
+                              <p>Передали 1000$ В приют.</p>
+                            </div>
+                            <a class="w-full text-center block" href="#">
+                              Детали
+                            </a>
+                          </div>
+                          <div class="slider_item flex flex-col gap-[75px] p-[24px]">
+                            <div class="flex flex-col gap-[24px]">
+                              <p>27.12.2024</p>
+                              <p>Передали 1000$ В приют.</p>
+                            </div>
+                            <a class="w-full text-center block" href="#">
+                              Детали
+                            </a>
+                          </div>
+                          <div class="slider_item flex flex-col gap-[75px] p-[24px]">
+                            <div class="flex flex-col gap-[24px]">
+                              <p>27.12.2024</p>
+                              <p>Передали 1000$ В приют.</p>
+                            </div>
+                            <a class="w-full text-center block" href="#">
+                              Детали
+                            </a>
+                          </div>
+                          <div class="slider_item flex flex-col gap-[75px] p-[24px]">
+                            <div class="flex flex-col gap-[24px]">
+                              <p>27.12.2024</p>
+                              <p>Передали 1000$ В приют.</p>
+                            </div>
+                            <a class="w-full text-center block" href="#">
+                              Детали
+                            </a>
+                          </div>
+                          <div class="slider_item flex flex-col gap-[75px] p-[24px]">
+                            <div class="flex flex-col gap-[24px]">
+                              <p>27.12.2024</p>
+                              <p>Передали 1000$ В приют.</p>
+                            </div>
+                            <a class="w-full text-center block" href="#">
+                              Детали
+                            </a>
+                          </div>
+                          <div class="slider_item flex flex-col gap-[75px] p-[24px]">
+                            <div class="flex flex-col gap-[24px]">
+                              <p>27.12.2024</p>
+                              <p>Передали 1000$ В приют.</p>
+                            </div>
+                            <a class="w-full text-center block" href="#">
+                              Детали
+                            </a>
+                          </div>
+                          <div class="slider_item flex flex-col gap-[75px] p-[24px]">
+                            <div class="flex flex-col gap-[24px]">
+                              <p>27.12.2024</p>
+                              <p>Передали 1000$ В приют.</p>
+                            </div>
+                            <a class="w-full text-center block" href="#">
+                              Детали
+                            </a>
+                          </div>
+                         
+    
+                        </div>
+                      
+                        
+                      </div>
+                      
+                      
+                </div>
+            </div>
+            <div class="donations_section mt-[130px]">
+                <div class="container">
+                    <h3 style="font-size: 32px;">История пожертвований</h3>
+                    <div class="table_inner">
+                        <table class="donations_table w-full mt-[50px]">
+                            <thead>
+                                <tr>
+                                    <td>От кого</td>
+                                    <td>Куда</td>
+                                    <td>Сколько</td>
+                                    <td>Дата</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Дарья</td>
+                                    <td>Карта, <span>2948 9204 9281 2311</span></td>
+                                    <td>$100,00</td>
+                                    <td>27.12.2024</td>
+                                </tr>
+                                <tr>
+                                    <td>Дарья</td>
+                                    <td>Карта, <span>2948 9204 9281 2311</span></td>
+                                    <td>$100,00</td>
+                                    <td>27.12.2024</td>
+                                </tr>
+                                <tr>
+                                    <td>Дарья</td>
+                                    <td>Карта, <span>2948 9204 9281 2311</span></td>
+                                    <td>$100,00</td>
+                                    <td>27.12.2024</td>
+                                </tr>
+                                <tr>
+                                    <td>Дарья</td>
+                                    <td>Карта, <span>2948 9204 9281 2311</span></td>
+                                    <td>$100,00</td>
+                                    <td>27.12.2024</td>
+                                </tr>
+                                <tr>
+                                    <td>Дарья</td>
+                                    <td>Карта, <span>2948 9204 9281 2311</span></td>
+                                    <td>$100,00</td>
+                                    <td>27.12.2024</td>
+                                </tr>
+                                <tr>
+                                    <td>Дарья</td>
+                                    <td>Карта, <span>2948 9204 9281 2311</span></td>
+                                    <td>$100,00</td>
+                                    <td>27.12.2024</td>
+                                </tr>
+                                <tr>
+                                    <td>Дарья</td>
+                                    <td>Карта, <span>2948 9204 9281 2311</span></td>
+                                    <td>$100,00</td>
+                                    <td>27.12.2024</td>
+                                </tr>
+                                <tr>
+                                    <td>Дарья</td>
+                                    <td>Карта, <span>2948 9204 9281 2311</span></td>
+                                    <td>$100,00</td>
+                                    <td>27.12.2024</td>
+                                </tr>
+                                <tr>
+                                    <td>Дарья</td>
+                                    <td>Карта, <span>2948 9204 9281 2311</span></td>
+                                    <td>$100,00</td>
+                                    <td>27.12.2024</td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer py-[32px] md:py-[80px] mt-[100px] md:mt-[130px]">
+            <div class="container">
+                <div class="flex flex-col gap-[32px] md:gap-[48px]">
+                    <div class="footer_logo_section flex gap-[32px] lg:items-center flex-col md:flex-row justify-between">
+                        <div class="footer_logo">
+                            <a class="flex items-center gap-[16px] md:gap-[40px]" href="#">
+                                <img src="images/logo.png" alt="logo">
+                                <p>H2H Foundation</p>
+                            </a>
+                        </div>
+                        <a href="#">Telegram -></a>
+                    </div>
+                    <div class="footer_info flex flex-col sm:flex-row gap-[24px] justify-between">
+                        <p>H2H Foundation 2024-2025 All rights reserved</p>
+                        <a href="#">H2H.gold</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="scripts/script.js" defer>
+        
+</script>
+</body>
+</html>
